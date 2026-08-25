@@ -1,0 +1,39 @@
+{
+  "openevalz_version": 1,
+  "eval": {
+    "id": "inspect-india-jailbreak_safety",
+    "slug": "inspect-india-jailbreak-safety",
+    "title": "Inspect India Evals: Jailbreak Safety",
+    "group": "",
+    "tags": [],
+    "source": "register"
+  },
+  "upstream": {
+    "repo": "https://github.com/UKGovernmentBEIS/inspect_evals",
+    "path": "register/inspect-india-jailbreak_safety",
+    "inspect_ai": "0.3.260",
+    "eval_version": "",
+    "dependency": ""
+  },
+  "execution": {
+    "class": "plain",
+    "cost_class": "low",
+    "sandbox": null,
+    "requires_internet": false,
+    "fast": false,
+    "supports_k8s": false,
+    "environment": ""
+  },
+  "tasks": [
+    {
+      "name": "jailbreak_safety",
+      "samples": 0
+    }
+  ],
+  "total_samples": 0,
+  "external_assets": [],
+  "scaffolds": [
+    "baseline"
+  ],
+  "generated": "2026-08-25"
+}
